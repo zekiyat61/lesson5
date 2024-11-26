@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.Formstyle {
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 12px;
+  }
+  
+  .Formstyle label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    width: 300px;
+  }
+  
+  .Formstyle input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  
+  .Formstyle button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(93, 150, 223);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+  }
+  .UserDashboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .AdminDashboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  
