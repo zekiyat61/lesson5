@@ -1,6 +1,6 @@
 import { useState } from "react";
 import AdminDashboard from "./AdminDashboard";
-import UserDashBoard from "./UserDashBoard";
+import UserDashboard from "./UserDashboard";
 import Form from "./Form";
 
 
@@ -18,7 +18,7 @@ function App() {
     <>
       <div>
         {role === "admin" && <AdminDashboard />}
-        {role === "user" && <UserDashBoard />}
+        {role === "user" && <UserDashboard />}
         {role === "" && <Form onLogin={handleLogin} />}
       </div>
     </>
